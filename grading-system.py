@@ -1,3 +1,13 @@
+username = input("Enter your username")
+password = input("Enter your password")
+if username == "Yusuftech":
+    if password == "12345":
+        print("Login Successful")
+    else:
+        print("Invalid Password")
+else:
+    print("User Not Found")
+
 gradeMarks = int(input("Enter your Grade: "))
 if gradeMarks >= 90:
     print("Grade - Excellent")
